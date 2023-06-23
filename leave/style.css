@@ -1,0 +1,21 @@
+body {
+    background-image: linear-gradient(120deg, #7bdc7b, #e877e8);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: rgb(196, 197, 222);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .info {
+    margin: 8px 0;
+  }
+  

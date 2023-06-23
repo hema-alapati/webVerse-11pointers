@@ -10,20 +10,31 @@
     <div class="container">
       <h1>Leave Details</h1>
       <p class="info">Leave Type:</p>
-      <div class="input-div">
-        <input type="input" name="answer" placeholder="Your answer" />
+      <div class="LeaveType">
+        <select name="leaveType">
+          <option value="vacation">Vacation</option>
+          <option value="sick">Sick Leave</option>
+          <option value="personal">Personal Leave</option>
+        </select>
       </div>
-      <p class="info">Leave Date:{}</p>
-      <div class="input-div">
-        <input type="input" name="answer" placeholder="Your answer" />
+      <p class="info">Leave Date:</p>
+      <div class="LeaveDate">
+        <input type="date" name="leaveDate" />
       </div>
-      <p class="info">Time:{}</p>
+      <p class="Time">Time:</p>
       <div class="input-div">
-        <input type="input" name="answer" placeholder="Your answer" />
+        <input type="text" name="time" placeholder="Out-Time" />
       </div>
-      <p class="info">Duration:{}</p>
-      <div class="input-div">
-        <input type="input" name="answer" placeholder="Your answer" />
+      <p class="Duration">Duration:</p>
+      <div class="Duration">
+        <select name="duration">
+          <option value="1">1 hour</option>
+          <option value="2">2 hours</option>
+          <option value="3">3 hours</option>
+          <option value="4">4 hours</option>
+          <option value="5">5 hours</option>
+          <option value="6">6 hours</option>
+        </select>
       </div>
     </div>
   </body>
